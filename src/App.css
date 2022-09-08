@@ -1,0 +1,87 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+*{box-sizing: border-box;
+    color: #515151;
+    font-family: Yantramanav,sans-serif;
+    margin: 0;
+    padding: 0;}
+
+body{
+  font-family: roboto;
+  padding: 0;
+}
+
+
+.active-link{
+  font-weight: 700;
+  padding: 10px;
+}
+
+/* Header */
+.header{
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  border-bottom: solid;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__item{
+  margin: 20px;
+}
+
+.header__logo{
+  color: black;
+}
+
+.routes{
+  max-width: 100px;
+}
+
+.header__nav{
+
+}
+
+.header__list{
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-between;
+  margin-right: 40px;
+  font-size: 20px;
+}
+
+.header__item{
+  text-align:center;
+}
+
+/* Header ENDs */
+
+.details__img{
+  width:200px;
+}
+
+/* Home layout */
+
+.home-layout{
+  display: flex;
+}
+
+/* Menu */
+
+.home-menu{
+  width: 20%;
+}
+
+
+/* Home Products Container */
+
+
+
+
+
+
